@@ -1,6 +1,6 @@
 E-Commerce Analysis (SQL)
+Overview
 
-Overview :
 Analyze sales and customer data to improve product offerings and target customers effectively.
 Objective
 
@@ -8,18 +8,18 @@ Objective
     Examine sales trends and customer preferences.
     Segment customers based on purchase behavior.
 
-Skills and Tools Used :
+Skills and Tools Used
 
     Skills: Subqueries, CTEs, and aggregations.
     Tools: MySQL.
 
-Key Insights :
+Key Insights
 
     Products driving the most revenue.
     Seasonal demand trends.
     Regional sales performance.
 
-Dataset Details :
+Dataset Details
 
     Source: Sample e-commerce data.
     Contents:
@@ -27,7 +27,7 @@ Dataset Details :
         Sales transactions.
         Customer demographics.
 
-Sample Queries :
+Sample Queries
 
 -- Top-selling products
 SELECT Product_Name, SUM(Sales) AS Total_Sales
